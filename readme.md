@@ -2,7 +2,12 @@
 
 ![alt text](image.png)
 
+#
 # 🌐Projeto Laptop Landing Page
+
+Clique aqui para ver a página ao vivo:  https://laptop-lading-page.vercel.app/
+
+#
 
 ## 📝 Sobre o Projeto
 
