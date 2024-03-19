@@ -1,0 +1,31 @@
+
+
+.container {
+    width: 100%;
+    transition: .1s;
+    display: flex;
+    flex-direction: row;
+}
+
+.background-image {
+    background-image: url(../image/macbook-air-midnight.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 300px;
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 1;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .background-image {
+        background-position: center bottom;
+    }
+}

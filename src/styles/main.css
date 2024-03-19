@@ -13,21 +13,25 @@ nav {
 
 nav .logo {
     width: 4.7rem;
+    margin-bottom: 30px;
     cursor: pointer;
 }
 
 .container {
-    width: 100%;
-    background-image: url(../image/macbook-air-midnight.jfif);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center; /* Alinha a imagem à direita em telas grandes */
-    margin: 20px 40px;
+    margin: 20px 20px 20px 90px;
     transition: .1s;
 }
 
+.background-image img {
+    width: 50%;
+    object-fit: cover;
+    float: right;
+}
+
 .content {
-    margin-top: 10%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .content > h1 {
@@ -42,7 +46,7 @@ nav .logo {
 }
 
 .content > p {
-    max-width: 450px;
+    max-width: 600px;
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.5;
@@ -88,7 +92,6 @@ nav .logo {
     background: #e3e4e6;
 }
 
-
 .buy-button {
     background-color: #000;
     color: #fff;
@@ -107,6 +110,3 @@ nav .logo {
 .buy-button:hover {
     background-color: #444;
 }
-
-
-
