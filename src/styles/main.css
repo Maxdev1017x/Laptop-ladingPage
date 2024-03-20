@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/*Nav*/
+
 nav {
     width: 100%;
     display: flex;
@@ -17,6 +20,9 @@ nav .logo {
     cursor: pointer;
 }
 
+
+/*Container e imagem*/
+
 .container {
     margin: 20px 20px 20px 90px;
     transition: .1s;
@@ -27,6 +33,9 @@ nav .logo {
     object-fit: cover;
     float: right;
 }
+
+
+/*Demais conteúdos*/
 
 .content {
     margin-top: 10px;
@@ -60,6 +69,9 @@ nav .logo {
     font-size: 24px;
 }
 
+
+/* Seletor de cores*/
+
 .color-select {
     display: flex;
     margin-top: 30px;
@@ -92,6 +104,9 @@ nav .logo {
     background: #e3e4e6;
 }
 
+
+/*Botão comprar*/
+
 .buy-button {
     background-color: #000;
     color: #fff;
@@ -109,4 +124,50 @@ nav .logo {
 
 .buy-button:hover {
     background-color: #444;
+}
+
+
+/*Resposividade*/
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    nav .logo {
+        flex-direction: column;
+    }
+
+    .background-image img {
+        width: 100%;
+        
+    }
+
+    .content > h1 {
+        font-size: 2rem;
+    }
+
+    .content > h2 {
+        font-size: 1.5rem;
+    }
+
+    .content > p {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .content > h3 {
+        font-size: 20px;
+    }
+
+    .color-select {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buy-button {
+        width: 100%;
+    }
 }
