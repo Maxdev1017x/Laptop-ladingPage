@@ -24,12 +24,13 @@ nav .logo {
 /*Container e imagem*/
 
 .container {
-    margin: 20px 20px 20px 90px;
+    margin: 10px 20px 20px 90px;
     transition: .1s;
 }
 
 .background-image img {
-    width: 50%;
+    width: 45%;
+    height: auto;
     object-fit: cover;
     float: right;
 }
