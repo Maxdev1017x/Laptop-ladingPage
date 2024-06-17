@@ -129,45 +129,48 @@ nav .logo {
 
 /*Resposividade*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .container {
-        width: 90%;
-        margin: auto;
+        width: 98%;
+        margin: auto 5px;
         flex-direction: column;
     }
-
+    
     nav .logo {
+        display: flex;
         flex-direction: column;
     }
-
+    
     .background-image img {
         width: 100%;
-        
+        margin-bottom: 30px;
     }
-
+    
     .content > h1 {
-        font-size: 2rem;
+        font-size: calc(1.5rem + 1vw);
     }
-
+    
     .content > h2 {
-        font-size: 1.5rem;
+        font-size: calc(1.25rem + 1vw);
+        margin-bottom: 30px;
     }
-
+    
     .content > p {
-        max-width: 90%;
-        font-size: 1rem;
+        max-width: 100%;
+        font-size: calc(0.75rem + 1vw);
     }
-
+    
     .content > h3 {
-        font-size: 20px;
+        font-size: calc(1rem + 0.5vw);
     }
-
+    
     .color-select {
+        display: flex;
         align-items: center;
         justify-content: center;
     }
-
+    
     .buy-button {
-        width: 100%;
+        width: auto;
     }
-}
+}    
