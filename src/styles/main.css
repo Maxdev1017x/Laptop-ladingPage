@@ -133,48 +133,52 @@ nav .logo {
 @media screen and (max-width: 1024px) {
     .container {
         width: 98%;
-        margin: auto 5px;
+        margin: 2vw auto; 
+        padding: 2vw;
         flex-direction: column;
     }
-    
+
     nav .logo {
         display: flex;
         flex-direction: column;
     }
-    
+
     .background-image img {
         width: 100%;
         margin-bottom: 30px;
     }
-    
+
     .content > h1 {
         font-size: calc(1.5rem + 1vw);
     }
-    
+
     .content > h2 {
         font-size: calc(1.25rem + 1vw);
         margin-bottom: 30px;
     }
-    
+
     .content > p {
         max-width: 100%;
         font-size: calc(0.75rem + 1vw);
     }
-    
+
     .content > h3 {
         font-size: calc(1rem + 0.5vw);
     }
-    
+
     .color-select {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     .buy-button {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: auto;
     }
-}    
+}
+
+    
+
