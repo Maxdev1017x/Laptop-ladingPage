@@ -1,39 +1,40 @@
-![alt text](image-2.png)
+# Laptop Landing Page
 
-![alt text](image-3.png)
+Uma página interativa para explorar as cores do MacBook Air.
 
-#
-# 🌐Projeto Laptop Landing Page
+[Acesse a página ao vivo](https://laptop-lading-page.vercel.app/).
 
-Clique aqui para ver a página ao vivo:  https://laptop-lading-page.vercel.app/
+## Sobre o projeto
 
-#
+O projeto apresenta o MacBook Air e permite alternar entre as cores disponíveis. A imagem e o texto alternativo são atualizados junto com a seleção.
 
-## 📝 Sobre o Projeto
+![Página do MacBook Air](image-2.png)
 
-O projeto "Laptop Landing Page" é uma página de destino interativa e dinâmica para a compra de laptops. A característica principal desta página é a capacidade de visualizar o laptop em diferentes cores. Ao clicar na cor desejada, a imagem do laptop muda dinamicamente, proporcionando ao usuário uma experiência personalizada e envolvente.
+![Seleção de cores](image-3.png)
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+- HTML5
+- CSS3
+- JavaScript
 
-- **HTML5**: Utilizado para a estruturação do conteúdo da página.
-- **CSS3**: Usado para estilizar a página, tornando-a visualmente atraente.
-- **JavaScript**: Implementa a funcionalidade de mudança dinâmica da imagem do laptop com base na cor selecionada.
+## Como usar
 
-## 🚀 Como Usar
+1. Clone o repositório:
 
-1. Clone este repositório para o seu computador.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Interaja com o projeto
-## 👤 Autor
+   ```bash
+   git clone https://github.com/Maxdev1017x/Laptop-ladingPage.git
+   ```
 
-#
+2. Abra `index.html` no navegador.
+3. Use os seletores para visualizar as cores ou clique em **Comprar** para acessar a loja oficial da Apple.
 
-## 🤝 Contribuições
+Não é necessário instalar dependências ou executar um servidor.
 
-#
+## Autor
 
-## 📄 Licença
+[Maxdev1017x](https://github.com/Maxdev1017x)
 
-Este projeto está sob a licença MIT.
+## Licença
+
+Distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE).
