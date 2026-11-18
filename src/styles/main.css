@@ -78,7 +78,7 @@ nav .logo {
     margin-top: 30px;
 }
 
-.color-select > div {
+.color-select > button {
     background: #333;
     margin-top: -12px;
     width: 50px;
@@ -87,6 +87,17 @@ nav .logo {
     margin-right: 10px;
     cursor: pointer;
     border: 1px solid #56575a;
+    padding: 0;
+}
+
+.color-select > button[aria-pressed="true"] {
+    outline: 2px solid #2c80d5;
+    outline-offset: 3px;
+}
+
+.color-select > button:focus-visible {
+    outline: 3px solid #2c80d5;
+    outline-offset: 3px;
 }
 
 .color-select #midnight {
@@ -181,4 +192,3 @@ nav .logo {
 }
 
     
-
